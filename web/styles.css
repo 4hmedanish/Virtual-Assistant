@@ -1,13 +1,39 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial;
-    text-align: center;
-    margin-top: 100px;
-    background: #111;
+    background: #0f172a;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#status {
+    margin: 20px;
+    font-size: 18px;
+    color: #38bdf8;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #22c55e;
+    color: white;
     cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
 }
